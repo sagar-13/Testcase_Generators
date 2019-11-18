@@ -18,7 +18,8 @@ and XLWT to write to another document simultaneously.
 
 INSTRUCTIONS
 
-You will need to install:
+Requires:
+
 -Python https://www.python.org/downloads/ 
 
     -The following libraries:
@@ -27,7 +28,7 @@ You will need to install:
 
 Using pip to install the libararies is fine.
 
-(Optional: Manual installation)
+Optional: Manual installation
 
 XLWT and XLRD
 
