@@ -9,7 +9,7 @@ By: Sagar Suri
 """
 
 
-path = "C:\\Users\\surisu\\OneDrive - Government of Ontario\\Documents\\test.xlsx"
+path = "C:\\Users\\******\\test.xlsx"
 def prepare(path):
     """
     Opens the business document for reading and workbook for writing.
@@ -130,8 +130,8 @@ def case_writer(BusinessDocument, workbook):
             
         # Now that we have all the information, we can just write it to the correct sheet
         worksheet.write(c, 0, "Manual", style_text)
-        worksheet.write(c, 1, "SORRL_SO_Dashboard", style_text)
-        worksheet.write(c, 2, "surisu", style_text)
+        worksheet.write(c, 1, "*****_SO_Dashboard", style_text)
+        worksheet.write(c, 2, "*****", style_text)
         worksheet.write(c, 3, "All", style_text)
         worksheet.write(c, 4, case_id, style_text)
         worksheet.write(c, 5, Description, style_text)
@@ -155,7 +155,7 @@ def main():
         path = sys.argv[1]
     else: 
         # my default path
-        path = "C:\\Users\\surisu\\Desktop\\dashboard_roles_organized.xlsx"
+        path = "C:\\Users\\****\\dashboard_roles_organized.xlsx"
             
 
     Document = prepare(path)

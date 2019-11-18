@@ -9,7 +9,7 @@ By: Sagar Suri
 """
 
 
-# path = "C:\\Users\\surisu\\OneDrive - Government of Ontario\\Documents\\test.xlsx"
+# path = "C:\\Users\\....\\name.xlsx"
 def prepare(path):
     """
     Opens the business document for reading and workbook for writing.
@@ -158,7 +158,7 @@ def main():
         path = sys.argv[1]
     else: 
         # my default path
-        path = "C:\\Users\\surisu\\Desktop\\dashboard.xlsx"
+        path = "C:\\Users\\....\\dashboard.xlsx"
             
 
     Document = prepare(path)

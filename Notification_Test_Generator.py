@@ -195,7 +195,7 @@ def main():
         path = sys.argv[1]
     else: 
         # my default path
-        path = "C:\\Users\\surisu\\OneDrive - Government of Ontario\\Documents\\test.xlsx"
+        path = "C:\\Users\\....\\test.xlsx"
 
     Document = prepare(path)
     case_writer(Document[0], Document[1])

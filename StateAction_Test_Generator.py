@@ -9,7 +9,7 @@ By: Sagar Suri
 """
 
 
-path = "C:\\Users\\surisu\\OneDrive - Government of Ontario\\Documents\\test.xlsx"
+path = "C:\\Users\\....\\test.xlsx"
 def prepare(path):
     """
     Opens the business document for reading and workbook for writing.
