@@ -7,10 +7,13 @@ something which was being done manually at the time of creation and was a very t
 Now, 1000s of testcases can be generated in seconds. The code is also very easy to modify for 
 various different types of tests and parts of the application. 
 
+Example:
+Would turn something like this:
+![Business_Document_Input](https://user-images.githubusercontent.com/38898536/69021614-73208480-0986-11ea-9e34-01c38652603f.PNG)
 
-It uses XLRD to read an excel document (business documents)
-and XLWT to write to another document simultaneously.
 
+To this:
+![Notification_output](https://user-images.githubusercontent.com/38898536/69021624-774ca200-0986-11ea-819e-7eac696e3e24.PNG)
 
 
 
