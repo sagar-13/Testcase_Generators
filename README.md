@@ -1,6 +1,5 @@
 # TEST CASE GENERATORS
 
-Another side project to improve efficiency during my internship.
  
 These scripts were made to automate the process of reading business documents and creating test cases -
 something which was being done manually at the time of creation and was a very time-intensive task. 
