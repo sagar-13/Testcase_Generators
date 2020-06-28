@@ -3,8 +3,8 @@
  
 These scripts were made to automate the process of reading business documents and creating test cases -
 something which was being done manually at the time of creation and was a very time-intensive task. 
-Now, 1000s of testcases can be generated in seconds. The code is also very easy to modify for 
-various different types of tests and parts of the application. 
+
+The code is also very easy to modify for various different types of tests and parts of the application. 
 
 Example:
 Would turn something like this:
